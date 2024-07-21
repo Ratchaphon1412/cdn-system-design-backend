@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "oldies-test-system-design"
+version = "0.1.0"
+description = ""
+authors = ["Ratchaphon1412 <Ratchaphon.h111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.7"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
